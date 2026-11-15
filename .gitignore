@@ -1,0 +1,20 @@
+# Terraform local files and deployment evidence may contain sensitive values.
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+.terraformrc
+terraform.rc
+.env
+.env.*
+!*.example
+*.pem
+*.key
+validation/raw/
+# Commit .terraform.lock.hcl for reproducible provider selection.
